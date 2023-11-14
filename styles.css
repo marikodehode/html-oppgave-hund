@@ -1,0 +1,231 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(247, 253, 253);
+    font-family: 'Raleway', sans-serif;;
+}
+
+
+/* --------------Typografi------------------------------------ */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 25px;
+}
+
+h2 {
+    font-size: small;
+}
+
+
+/* --------------Toppen av siden------------------------------------ */
+
+
+.topbar {
+    background-color: rgb(200, 219, 219);
+    height: 20px;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+/* --------------Linker------------------------------------ */
+
+
+.navlinks {
+    padding-top: 30px;
+    padding-right: 30px;
+    color: black;
+    display: flex;
+    gap: 30px;
+   
+}
+
+.navlinks a {
+    font-size: 17px;
+    color: rgb(153, 151, 151);
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    scale: 105%;
+    color: black;
+    
+}
+
+/* --------------Logo------------------------------------ */
+
+.logo {
+    height: 80px;
+    width: 120px;
+    background-color: rgb(222, 240, 240);
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* --------------Banner------------------------------------ */
+
+.banner {
+    height: 550px;
+    width: 100%;
+    background-color: rgb(227, 240, 240);
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    background-image: url(https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------Main------------------------------------ */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+/* -----------------section hero---------------------------- */
+
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+}
+
+.hero-img {
+    height: 450px;
+    width: 800px;
+    background-image: url(https://images.unsplash.com/photo-1444212477490-ca407925329e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1856&q=80);
+    background-size: cover;
+    background-position: center;
+    /* opacity: 50%; */
+    /* transition: all 0.5s ease-in; */
+}
+
+/* .hero-img:hover {
+    opacity: 100%;
+} */
+
+.hero-tekst {
+    height: 400px;
+    width: 800px;
+    
+}
+
+
+/* -----------------section hero1--------------------------- */
+
+
+
+.hero1 {
+    display: flex;
+}
+
+
+.hero1-img {
+    height: 450px;
+    width: 800px;
+    background-image: url(https://images.unsplash.com/photo-1684176655400-5c461357b73e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+}
+
+.hero1-tekst {
+    height: 400px;
+    width: 800px;
+
+}
+
+
+
+/* -----------------section hero2--------------------------- */
+
+
+
+
+.hero2 {
+    display: flex;
+}
+
+.hero2-img {
+    height: 450px;
+    width: 800px;
+    background-image: url(https://images.unsplash.com/photo-1520580413066-ac45756bdc71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.hero2-tekst {
+    height: 400px;
+    width: 800px;
+ 
+}
+
+
+
+
+/* -----------------section hero3--------------------------- */
+
+
+
+
+.hero3 {
+    display: flex;
+}
+
+.hero3-img {
+    height: 450px;
+    width: 800px;
+    background-image: url(https://images.unsplash.com/photo-1518882174711-1de40238921b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero3-tekst {
+    height: 400px;
+    width: 800px;
+}
+
+
+/* -----------------Footer--------------------------- */
+
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color:rgb(200, 219, 219);
+    margin-top: 30px;
+}
+
+.footer-tekstfelt1 {
+    width: 300px;
+    height: 300px;
+}
+
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 50px;
+}
